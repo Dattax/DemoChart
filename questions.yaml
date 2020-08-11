@@ -1,0 +1,23 @@
+ categories:
+    - Website
+    - CMS
+    questions:
+    - variable: persistence.enabled
+    default: "false"
+    description: "Enable persistent volume for Joomla"
+    type: boolean
+    required: true
+    label: Joomla Persistent Volume Enabled
+    show_subquestion_if: true
+    group: "Joomla Settings"
+    subquestions:
+    - variable: persistence.size
+        default: "10Gi"
+        description: "Joomla Persistent Volume Size"
+        type: string
+        label: Joomla Volume Size
+    - variable: persistence.storageClass
+        default: ""
+        description: "If undefined or null, uses the default StorageClass. Default to null"
+        type: storageclass
+        label: Default StorageClass for Joomla

@@ -1,0 +1,1 @@
+This is an example of adding descriptive text to your Helm chart. You provide instructions to the end-user or just celebrate your ability to write clever messages!
