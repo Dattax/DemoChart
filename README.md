@@ -1,0 +1,2 @@
+# DemoChart
+A Joomla chart
